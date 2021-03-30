@@ -16,6 +16,14 @@
       "disabledLinters": [
         "Facebook\\HHAST\\CamelCasedMethodsUnderscoredFunctionsLinter"
       ]
+    },
+    {
+      "patterns": [
+        "src/*"
+      ],
+      "disabledLinters": [
+        "Facebook\\HHAST\\LicenseHeaderLinter"
+      ]
     }
   ]
 }

@@ -1,3 +1,4 @@
+/** html-stream-non-namespaced is MIT licensed, see /LICENSE. */
 namespace HTL\HTMLStream\NonNamespaced;
 
 use type Facebook\HackTest\HackTest;

@@ -1,0 +1,1 @@
+/** html-stream-non-namespaced is MIT licensed, see /LICENSE. */
