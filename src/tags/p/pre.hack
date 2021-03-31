@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<0c7e69f374dcb3b00f0663ce73e542cb>>
+ * @generated SignedSource<<5eb5f4684941efa1ec12d66920403473>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-pre-element
  */
 final xhp class pre extends SGMLStream\RootElement {
-  protected string $tagName = 'pre';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'pre';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<e48f454ee839391e765a82d87750976a>>
+ * @generated SignedSource<<c9de61c8693b9e5b0d140286937ba457>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,10 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-meta-element
  */
 final xhp class meta extends SGMLStream\RootElement {
-  protected string $tagName = 'meta';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-meta-charset
@@ -28,10 +27,18 @@ final xhp class meta extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-meta-http-equiv
      */
-    enum {'content-type', 'default-style', 'refresh', 'x-ua-compatible', 'content-security-policy'} http-equiv,
+    enum {
+      'content-type',
+      'default-style',
+      'refresh',
+      'x-ua-compatible',
+      'content-security-policy',
+    } http-equiv,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-meta-name
      * Any name.
      */
     string name;
+
+  protected string $tagName = 'meta';
 }

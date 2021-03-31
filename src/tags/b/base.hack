@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<84cbc62bf5dcf3697ee8a1a5f26fb78f>>
+ * @generated SignedSource<<f6098369ce175a8530e1d518c471c557>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,10 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-base-element
  */
 final xhp class base extends SGMLStream\RootElement {
-  protected string $tagName = 'base';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-base-href
@@ -22,8 +21,11 @@ final xhp class base extends SGMLStream\RootElement {
     string href,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-base-target
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For more see
+     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
+     * more see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string target;
+
+  protected string $tagName = 'base';
 }

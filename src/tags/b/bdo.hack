@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<80074e0fb2132ffb9e06af929cda91eb>>
+ * @generated SignedSource<<1d9f8957a53a9066ea225042594a960c>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-bdo-element
  */
 final xhp class bdo extends SGMLStream\RootElement {
-  protected string $tagName = 'bdo';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'bdo';
 }

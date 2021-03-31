@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f0830926868c09672bdeca81a48652e7>>
+ * @generated SignedSource<<e6a17e569e04a675b499e78aad59de4a>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-aside-element
  */
 final xhp class aside extends SGMLStream\RootElement {
-  protected string $tagName = 'aside';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'aside';
 }

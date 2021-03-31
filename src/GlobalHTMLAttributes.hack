@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<791696ecef425920be00f0a97c386357>>
+ * @generated SignedSource<<3d0df4bf352417b2f38cb5581ca6f8a3>>
  */
 use namespace HTL\SGMLStreamInterfaces;
 
@@ -10,21 +10,29 @@ trait GlobalHTMLAttributes {
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#the-accesskey-attribute
-     * An ordered set of unique space-separated tokens none of which are identical to another token and each of which must be
-     * exactly one code point in length.
+     * An ordered set of unique space-separated tokens none of which are identical to
+     * another token and each of which must be exactly one code point in length.
      */
     string accesskey,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-autocapitalize
      */
-    enum {'off', 'none', 'on', 'sentences', 'words', 'characters'} autocapitalize,
+    enum {
+      'off',
+      'none',
+      'on',
+      'sentences',
+      'words',
+      'characters',
+    } autocapitalize,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-autofocus
      */
     SGMLStreamInterfaces\BooleanAttribute autofocus,
     /**
      * @see https://html.spec.whatwg.org/multipage/#classes
-     * A set of space-separated tokens representing the various classes that the element belongs to.
+     * A set of space-separated tokens representing the various classes that the element
+     * belongs to.
      */
     string class,
     /**
@@ -44,21 +52,38 @@ trait GlobalHTMLAttributes {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-enterkeyhint
      */
-    enum {'enter', 'done', 'go', 'next', 'previous', 'search', 'send'} enterkeyhint,
+    enum {
+      'enter',
+      'done',
+      'go',
+      'next',
+      'previous',
+      'search',
+      'send',
+    } enterkeyhint,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hidden
      */
     SGMLStreamInterfaces\BooleanAttribute hidden,
     /**
      * @see https://html.spec.whatwg.org/multipage/#the-id-attribute
-     * A unique value amount all id attributes of the HTML elements in your document. At least one character in length and
-     * without ascii whitespace.
+     * A unique value amount all id attributes of the HTML elements in your document. At
+     * least one character in length and without ascii whitespace.
      */
     string id,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-inputmode
      */
-    enum {'none', 'text', 'tel', 'url', 'email', 'numeric', 'decimal', 'search'} inputmode,
+    enum {
+      'none',
+      'text',
+      'tel',
+      'url',
+      'email',
+      'numeric',
+      'decimal',
+      'search',
+    } inputmode,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-is
      * A valid custom element name.
@@ -76,7 +101,8 @@ trait GlobalHTMLAttributes {
     string itemprop,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-itemref
-     * A set of unique space-separated tokens referring to HTML element ids in the current document.
+     * A set of unique space-separated tokens referring to HTML element ids in the
+     * current document.
      */
     string itemref,
     /**
@@ -364,7 +390,8 @@ trait GlobalHTMLAttributes {
     string role,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-slot
-     * As far as I understand, any string is valid, since <slot name=?> is allowed to be any string.
+     * As far as I understand, any string is valid, since <slot name=?> is allowed to be
+     * any string.
      */
     string slot,
     /**

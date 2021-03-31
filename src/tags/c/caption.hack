@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f2dbd6a252fd399179ef204f6957f375>>
+ * @generated SignedSource<<bfc229eec2ad1bf7c109e07d03166b6f>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-caption-element
  */
 final xhp class caption extends SGMLStream\RootElement {
-  protected string $tagName = 'caption';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'caption';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<7e2cf7c6060fdd2858b3d6b862d92a2a>>
+ * @generated SignedSource<<caf6a3b2b4dccb0213b9ca1a554aec02>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -10,10 +10,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-button-element
  */
 final xhp class button extends SGMLStream\RootElement {
-  protected string $tagName = 'button';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-disabled
@@ -32,7 +31,11 @@ final xhp class button extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fs-formenctype
      */
-    enum {'application/x-www-form-urlencoded', 'multipart/form-data', 'text/plain'} formenctype,
+    enum {
+      'application/x-www-form-urlencoded',
+      'multipart/form-data',
+      'text/plain',
+    } formenctype,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fs-formmethod
      */
@@ -43,7 +46,8 @@ final xhp class button extends SGMLStream\RootElement {
     SGMLStreamInterfaces\BooleanAttribute formnovalidate,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fs-formtarget
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For more see
+     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
+     * more see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string formtarget,
@@ -61,4 +65,6 @@ final xhp class button extends SGMLStream\RootElement {
      * Any text is allowed.
      */
     string value;
+
+  protected string $tagName = 'button';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<0fb3bbe662d57339b1827b9b074ce5cd>>
+ * @generated SignedSource<<302871c2d66866f95cdf8ddfb2bde848>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-tfoot-element
  */
 final xhp class tfoot extends SGMLStream\RootElement {
-  protected string $tagName = 'tfoot';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'tfoot';
 }

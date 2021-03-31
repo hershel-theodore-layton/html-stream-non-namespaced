@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<bfcb541a11433b28d041ed28a86f4ab4>>
+ * @generated SignedSource<<7ee0a6b082c3adef6dd77137bd9d0e8b>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-nav-element
  */
 final xhp class nav extends SGMLStream\RootElement {
-  protected string $tagName = 'nav';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'nav';
 }

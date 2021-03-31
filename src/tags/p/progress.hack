@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<cabae9914799ce0e9cd3a93e83a624f5>>
+ * @generated SignedSource<<0ee7be316ef7c2aa236cb82c30052f7a>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,10 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-progress-element
  */
 final xhp class progress extends SGMLStream\RootElement {
-  protected string $tagName = 'progress';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-progress-value
@@ -23,4 +22,6 @@ final xhp class progress extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#attr-progress-max
      */
     float value;
+
+  protected string $tagName = 'progress';
 }

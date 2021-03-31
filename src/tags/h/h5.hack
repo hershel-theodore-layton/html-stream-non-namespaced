@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<6ec216433cf3c2cebeca44db532bcfb9>>
+ * @generated SignedSource<<cb0798304b45e825c742a842b82eec66>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-h5-element
  */
 final xhp class h5 extends SGMLStream\RootElement {
-  protected string $tagName = 'h5';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'h5';
 }

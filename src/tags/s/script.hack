@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<823b8ce07b09b0a5f56bd043fb8f54b6>>
+ * @generated SignedSource<<6819dd3f56c45a5cd758b4eaf9ed4a62>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -10,10 +10,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-script-element
  */
 final xhp class script extends SGMLStream\RootElement {
-  protected string $tagName = 'script';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTagsAndUnescapedContent;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-script-async
@@ -30,7 +29,8 @@ final xhp class script extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-script-integrity
      * Commonly a hash algorithm a "-" and a base64 encoded value of the hash. See
-     * https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-attribute for more information.
+     * https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-attribute for
+     * more information.
      */
     string integrity,
     /**
@@ -40,7 +40,17 @@ final xhp class script extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-script-referrerpolicy
      */
-    enum {'', 'no-referrer', 'no-referrer-when-downgrade', 'same-origin', 'origin', 'strict-origin', 'origin-when-cross-origin', 'strict-origin-when-cross-origin', 'unsafe-url'} referrerpolicy,
+    enum {
+      '',
+      'no-referrer',
+      'no-referrer-when-downgrade',
+      'same-origin',
+      'origin',
+      'strict-origin',
+      'origin-when-cross-origin',
+      'strict-origin-when-cross-origin',
+      'unsafe-url',
+    } referrerpolicy,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-script-src
      * A URL potentially surrounded by spaces.
@@ -48,8 +58,10 @@ final xhp class script extends SGMLStream\RootElement {
     string src,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-script-type
-     * An empty string or a javascript MIME type for non module javascript. "module" for module javascript. Any other value
-     * makes this script tag a data block.
+     * An empty string or a javascript MIME type for non module javascript. "module" for
+     * module javascript. Any other value makes this script tag a data block.
      */
     string type;
+
+  protected string $tagName = 'script';
 }

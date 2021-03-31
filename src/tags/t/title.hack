@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<ef7750798b1c9181320a0d45e8438b25>>
+ * @generated SignedSource<<8dcf559b53c671a55b7a64cbfcce6594>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-title-element
  */
 final xhp class title extends SGMLStream\RootElement {
-  protected string $tagName = 'title';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'title';
 }

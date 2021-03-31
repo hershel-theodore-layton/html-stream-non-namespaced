@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<d6214596c57797796b7955ffd20d82f6>>
+ * @generated SignedSource<<4b346b0410b5852b0a96f4d79ffd5480>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-p-element
  */
 final xhp class p extends SGMLStream\RootElement {
-  protected string $tagName = 'p';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'p';
 }

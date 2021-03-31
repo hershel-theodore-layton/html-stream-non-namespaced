@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<3350187b9a5f394241466b147895aea0>>
+ * @generated SignedSource<<389d3c050ee34650eb7d34ccf154a7d6>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,10 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-ins-element
  */
 final xhp class ins extends SGMLStream\RootElement {
-  protected string $tagName = 'ins';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-mod-cite
@@ -23,8 +22,9 @@ final xhp class ins extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-mod-datetime
      * Valid date string with optional time. See
-     * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string-with-optional-time for more
-     * information.
+     * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string-with-optional-time for more information.
      */
     string datetime;
+
+  protected string $tagName = 'ins';
 }

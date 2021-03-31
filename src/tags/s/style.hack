@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<b1e47eb23ad859b216ff096d197eb7b6>>
+ * @generated SignedSource<<3199da1675f003f30dafc2e4b14d3ab9>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,15 +10,16 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-style-element
  */
 final xhp class style extends SGMLStream\RootElement {
-  protected string $tagName = 'style';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTagsAndUnescapedContent;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-style-media
-     * A valid media query list. See https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-media-query-list
-     * for more information.
+     * A valid media query list. See
+     * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-media-query-list for more information.
      */
     string media;
+
+  protected string $tagName = 'style';
 }

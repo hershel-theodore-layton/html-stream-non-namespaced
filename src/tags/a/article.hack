@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<bf5cadeab8af5bec6d923c25ccc1a812>>
+ * @generated SignedSource<<4399f483e55c84965a810a7b57041520>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-article-element
  */
 final xhp class article extends SGMLStream\RootElement {
-  protected string $tagName = 'article';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
+
+  protected string $tagName = 'article';
 }

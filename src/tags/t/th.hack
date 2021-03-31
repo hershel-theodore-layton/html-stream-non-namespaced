@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<3fbc50675d8f4661d97580ce2e9b65ea>>
+ * @generated SignedSource<<2f92867c319e3f896063c789da735b6f>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,10 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-th-element
  */
 final xhp class th extends SGMLStream\RootElement {
-  protected string $tagName = 'th';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-th-abbr
@@ -26,7 +25,8 @@ final xhp class th extends SGMLStream\RootElement {
     int colspan,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-tdth-headers
-     * A set of unique space-separated tokens. Each of which is an id of a th element in the same table.
+     * A set of unique space-separated tokens. Each of which is an id of a th element in
+     * the same table.
      */
     string headers,
     /**
@@ -37,4 +37,6 @@ final xhp class th extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#attr-th-scope
      */
     enum {'col', 'colgroup', 'row', 'rowgroup'} scope;
+
+  protected string $tagName = 'th';
 }

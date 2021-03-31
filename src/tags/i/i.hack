@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<4144da37ba9788ef34989eb526f1e154>>
+ * @generated SignedSource<<b6a0bf09d195705b802b945c86180321>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-i-element
  */
 final xhp class i extends SGMLStream\RootElement {
-  protected string $tagName = 'i';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'i';
 }

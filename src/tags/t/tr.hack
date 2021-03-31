@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c9f9d8691765f3a61ef4175841fefafe>>
+ * @generated SignedSource<<53fc2ae68bfd98caecdab3579932d5e6>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-tr-element
  */
 final xhp class tr extends SGMLStream\RootElement {
-  protected string $tagName = 'tr';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'tr';
 }

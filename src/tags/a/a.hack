@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<903fa32a4eddc3399122cf3352ed14ec>>
+ * @generated SignedSource<<1dd64b545c74373e0b9fd2a9cf09a896>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,10 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-a-element
  */
 final xhp class a extends SGMLStream\RootElement {
-  protected string $tagName = 'a';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hyperlink-download
@@ -38,7 +37,17 @@ final xhp class a extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hyperlink-referrerpolicy
      */
-    enum {'', 'no-referrer', 'no-referrer-when-downgrade', 'same-origin', 'origin', 'strict-origin', 'origin-when-cross-origin', 'strict-origin-when-cross-origin', 'unsafe-url'} referrerpolicy,
+    enum {
+      '',
+      'no-referrer',
+      'no-referrer-when-downgrade',
+      'same-origin',
+      'origin',
+      'strict-origin',
+      'origin-when-cross-origin',
+      'strict-origin-when-cross-origin',
+      'unsafe-url',
+    } referrerpolicy,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hyperlink-rel
      * A space separated list of keywords. F.e. "next" or "license". See
@@ -47,7 +56,8 @@ final xhp class a extends SGMLStream\RootElement {
     string rel,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hyperlink-target
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For more see
+     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
+     * more see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string target,
@@ -56,4 +66,6 @@ final xhp class a extends SGMLStream\RootElement {
      * A MIME type string.
      */
     string type;
+
+  protected string $tagName = 'a';
 }

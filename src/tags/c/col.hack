@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<a98e01a330476083880bb7b78a980c10>>
+ * @generated SignedSource<<31133e967480a23a48fbb9431ae9df4b>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,13 +10,14 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-col-element
  */
 final xhp class col extends SGMLStream\RootElement {
-  protected string $tagName = 'col';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-col-span
      */
     int span;
+
+  protected string $tagName = 'col';
 }

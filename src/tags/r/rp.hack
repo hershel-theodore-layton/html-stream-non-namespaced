@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<4866a79c4564e7e179d5ee3bc4ab63ac>>
+ * @generated SignedSource<<bc616e00d268da7e1fb7183bfdf042a3>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-rp-element
  */
 final xhp class rp extends SGMLStream\RootElement {
-  protected string $tagName = 'rp';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'rp';
 }

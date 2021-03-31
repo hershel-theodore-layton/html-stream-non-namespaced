@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<617f3174ae4068497b1256b80b4bdb40>>
+ * @generated SignedSource<<ef52a3d5051470c7e9be425ebcf64f8f>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-span-element
  */
 final xhp class span extends SGMLStream\RootElement {
-  protected string $tagName = 'span';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'span';
 }

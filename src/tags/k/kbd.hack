@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<34756823fdb91f9eb974f2327db6f458>>
+ * @generated SignedSource<<7a5955b975da7583b6bff2eeb6925978>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-kbd-element
  */
 final xhp class kbd extends SGMLStream\RootElement {
-  protected string $tagName = 'kbd';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'kbd';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<5361a18f1b258bf2ddbf70fb0b9a4d54>>
+ * @generated SignedSource<<b97f780c157521e020111b99df532dc8>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-summary-element
  */
 final xhp class summary extends SGMLStream\RootElement {
-  protected string $tagName = 'summary';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'summary';
 }

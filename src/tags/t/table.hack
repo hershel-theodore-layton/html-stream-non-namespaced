@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<4b50a720c2c5be878f51d85f87560426>>
+ * @generated SignedSource<<77ac2a28ebd7ed456c8c25b14626ef52>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-table-element
  */
 final xhp class table extends SGMLStream\RootElement {
-  protected string $tagName = 'table';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'table';
 }

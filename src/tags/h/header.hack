@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f8fec9363ec58669712b2f9d816ad409>>
+ * @generated SignedSource<<ed207e2ab7ffb034b5e5f0d207be002d>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-header-element
  */
 final xhp class header extends SGMLStream\RootElement {
-  protected string $tagName = 'header';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'header';
 }

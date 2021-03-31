@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f684ea9520d566cdde1688370e1f1c27>>
+ * @generated SignedSource<<cdbac3859e80e86690347158a7ece278>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-section-element
  */
 final xhp class section extends SGMLStream\RootElement {
-  protected string $tagName = 'section';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'section';
 }

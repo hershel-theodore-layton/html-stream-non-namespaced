@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c87809efc50fba9a65f27a52b4b1c580>>
+ * @generated SignedSource<<0eaa013252cc6c88775a79dbe7feb67f>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -10,10 +10,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-optgroup-element
  */
 final xhp class optgroup extends SGMLStream\RootElement {
-  protected string $tagName = 'optgroup';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-optgroup-disabled
@@ -24,4 +23,6 @@ final xhp class optgroup extends SGMLStream\RootElement {
      * Any text is allowed.
      */
     string label;
+
+  protected string $tagName = 'optgroup';
 }

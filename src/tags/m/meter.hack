@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<444e45c4a1184fc41dc0704986a2c629>>
+ * @generated SignedSource<<83f1fb575b9f2c206f279ab9354e2c60>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,10 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-meter-element
  */
 final xhp class meter extends SGMLStream\RootElement {
-  protected string $tagName = 'meter';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-meter-high
@@ -39,4 +38,6 @@ final xhp class meter extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#attr-meter-value
      */
     float value;
+
+  protected string $tagName = 'meter';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<6f5da413458e204736fcb91379e7b85d>>
+ * @generated SignedSource<<3a54c2fbef190eae23f66919de90e5de>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -10,10 +10,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-audio-element
  */
 final xhp class audio extends SGMLStream\RootElement {
-  protected string $tagName = 'audio';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-media-autoplay
@@ -44,4 +43,6 @@ final xhp class audio extends SGMLStream\RootElement {
      * A URL potentially surrounded by spaces.
      */
     string src;
+
+  protected string $tagName = 'audio';
 }

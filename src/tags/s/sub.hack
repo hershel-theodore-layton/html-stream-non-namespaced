@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<a10cd201cb6ad49da0d4a623c1650f8a>>
+ * @generated SignedSource<<7cdd2a0e9a9d34343777d910a707127d>>
  */
 use namespace HTL\SGMLStream;
 
@@ -10,7 +10,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-sub-element
  */
 final xhp class sub extends SGMLStream\RootElement {
-  protected string $tagName = 'sub';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'sub';
 }
