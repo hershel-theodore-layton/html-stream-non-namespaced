@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<2a7a5a736ef3e0f6f220ec4196ba3e24>>
+ * @generated SignedSource<<21b511d0076865e002e71ff087a97d5a>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-img-element
  */
-final xhp class img extends SGMLStream\RootElement {
+final xhp class img extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
   attribute
     /**

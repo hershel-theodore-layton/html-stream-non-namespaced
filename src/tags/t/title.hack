@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<8dcf559b53c671a55b7a64cbfcce6594>>
+ * @generated SignedSource<<5439d34bcf7ded7244d6ea88560d0f1e>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-title-element
  */
-final xhp class title extends SGMLStream\RootElement {
+final xhp class title extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'title';

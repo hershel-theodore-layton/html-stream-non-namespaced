@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<77ac2a28ebd7ed456c8c25b14626ef52>>
+ * @generated SignedSource<<493dadd2ffefebaa6b6d795290517882>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-table-element
  */
-final xhp class table extends SGMLStream\RootElement {
+final xhp class table extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'table';

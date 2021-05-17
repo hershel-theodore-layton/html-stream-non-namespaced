@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<54eda739b5b7d39a719f1f22e5621855>>
+ * @generated SignedSource<<63f109bac33cc39d675b74ce43bccc68>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-cite-element
  */
-final xhp class cite extends SGMLStream\RootElement {
+final xhp class cite extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'cite';

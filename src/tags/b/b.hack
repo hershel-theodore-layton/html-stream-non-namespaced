@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<6af288bb5063bd888137f952eb26c58a>>
+ * @generated SignedSource<<8a870699f946e6bc7fede648bd4eaaf0>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-b-element
  */
-final xhp class b extends SGMLStream\RootElement {
+final xhp class b extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'b';

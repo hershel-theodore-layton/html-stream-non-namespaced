@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<b97f780c157521e020111b99df532dc8>>
+ * @generated SignedSource<<4e63c71043e07b3c40cdfb8635aa216e>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-summary-element
  */
-final xhp class summary extends SGMLStream\RootElement {
+final xhp class summary extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'summary';

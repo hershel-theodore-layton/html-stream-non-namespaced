@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<21fbcfcac7ac1695430fadfe4a363f93>>
+ * @generated SignedSource<<91b7695c59c3782b9b41c59d88262fec>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-iframe-element
  */
-final xhp class iframe extends SGMLStream\RootElement {
+final xhp class iframe extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

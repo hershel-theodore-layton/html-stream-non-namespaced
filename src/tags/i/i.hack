@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<b6a0bf09d195705b802b945c86180321>>
+ * @generated SignedSource<<9a0fcec5db648925385a28faa193db3b>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-i-element
  */
-final xhp class i extends SGMLStream\RootElement {
+final xhp class i extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'i';

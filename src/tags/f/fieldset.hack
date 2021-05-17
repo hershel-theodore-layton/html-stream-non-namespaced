@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<cf49de2cae0e5cfe77c14156f34b3af9>>
+ * @generated SignedSource<<b9e88bff37b2c5a9bda6b0e26c3c5762>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-fieldset-element
  */
-final xhp class fieldset extends SGMLStream\RootElement {
+final xhp class fieldset extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

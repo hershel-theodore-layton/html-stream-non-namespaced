@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<2dcedcbfc065f7a891d34cf72daa1b9c>>
+ * @generated SignedSource<<2a1422786dda89296c8defd49857fa1d>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-mark-element
  */
-final xhp class mark extends SGMLStream\RootElement {
+final xhp class mark extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'mark';

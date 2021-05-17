@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<cb0798304b45e825c742a842b82eec66>>
+ * @generated SignedSource<<f36b240be00cf253cb0a054537be4374>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-h5-element
  */
-final xhp class h5 extends SGMLStream\RootElement {
+final xhp class h5 extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'h5';

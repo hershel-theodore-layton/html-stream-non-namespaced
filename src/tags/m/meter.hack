@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<83f1fb575b9f2c206f279ab9354e2c60>>
+ * @generated SignedSource<<878fbf5ee153a05415c2b0e77d462820>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-meter-element
  */
-final xhp class meter extends SGMLStream\RootElement {
+final xhp class meter extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

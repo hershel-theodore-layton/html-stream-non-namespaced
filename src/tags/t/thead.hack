@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<baf0ad5842542cddc7509a9b83261919>>
+ * @generated SignedSource<<eebb15dd71e5b294109a8c8ed0a500d8>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-thead-element
  */
-final xhp class thead extends SGMLStream\RootElement {
+final xhp class thead extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'thead';

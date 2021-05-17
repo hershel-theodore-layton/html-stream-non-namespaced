@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<7a5955b975da7583b6bff2eeb6925978>>
+ * @generated SignedSource<<0f22f45f869fe7bce182ab26ed65dc6c>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-kbd-element
  */
-final xhp class kbd extends SGMLStream\RootElement {
+final xhp class kbd extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'kbd';

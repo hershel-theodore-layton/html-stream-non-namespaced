@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<bfc229eec2ad1bf7c109e07d03166b6f>>
+ * @generated SignedSource<<63490f47c9f01fd683c9cc9a69fdef6b>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-caption-element
  */
-final xhp class caption extends SGMLStream\RootElement {
+final xhp class caption extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'caption';

@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<297497248f2ef6c6f00ab84808466816>>
+ * @generated SignedSource<<354bad844a067adda04d8754a24ce1ab>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-video-element
  */
-final xhp class video extends SGMLStream\RootElement {
+final xhp class video extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

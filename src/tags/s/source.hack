@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<2315231c5f5fa7024f0f452a3faec715>>
+ * @generated SignedSource<<f56d3b766f55b7527b44276a59a54cf0>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-source-element
  */
-final xhp class source extends SGMLStream\RootElement {
+final xhp class source extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
   attribute
     /**

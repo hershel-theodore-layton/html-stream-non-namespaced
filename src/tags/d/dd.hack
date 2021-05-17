@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<e521e5d6d3ee95b15b230f99e844c448>>
+ * @generated SignedSource<<fd83368550f6427e920d06c7ca7686cd>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-dd-element
  */
-final xhp class dd extends SGMLStream\RootElement {
+final xhp class dd extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'dd';

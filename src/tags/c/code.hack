@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<3c2a19b029290f9766bf49b50f449bb4>>
+ * @generated SignedSource<<4271153d10253e9a666cd0ec3f4568a5>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-code-element
  */
-final xhp class code extends SGMLStream\RootElement {
+final xhp class code extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'code';

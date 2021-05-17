@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<6576db0225fcc5aa5962118a080d4244>>
+ * @generated SignedSource<<e626b8dc6c537090a3e6af1798e1fc46>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-textarea-element
  */
-final xhp class textarea extends SGMLStream\RootElement {
+final xhp class textarea extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

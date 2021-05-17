@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<caf6a3b2b4dccb0213b9ca1a554aec02>>
+ * @generated SignedSource<<3552c1bc5becf0c1f89f277bf9d90c33>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-button-element
  */
-final xhp class button extends SGMLStream\RootElement {
+final xhp class button extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

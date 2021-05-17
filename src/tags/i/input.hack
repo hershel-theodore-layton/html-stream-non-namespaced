@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<e17177508e360c2beb15b0669f5b8e20>>
+ * @generated SignedSource<<953ac04e34e4275b3bc468678d5d21be>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-input-element
  */
-final xhp class input extends SGMLStream\RootElement {
+final xhp class input extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
   attribute
     /**

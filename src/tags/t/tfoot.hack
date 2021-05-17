@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<302871c2d66866f95cdf8ddfb2bde848>>
+ * @generated SignedSource<<62205546306fdc74b19100e7e88134d0>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-tfoot-element
  */
-final xhp class tfoot extends SGMLStream\RootElement {
+final xhp class tfoot extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'tfoot';

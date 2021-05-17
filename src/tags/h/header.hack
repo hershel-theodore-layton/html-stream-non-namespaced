@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<ed207e2ab7ffb034b5e5f0d207be002d>>
+ * @generated SignedSource<<eede82d843dfff5b340ad5dfd4b204c1>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-header-element
  */
-final xhp class header extends SGMLStream\RootElement {
+final xhp class header extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'header';

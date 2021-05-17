@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f293dea4a45983f98b586bdbf20acda2>>
+ * @generated SignedSource<<c964a2ac592f67d503681541553acf8b>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-figcaption-element
  */
-final xhp class figcaption extends SGMLStream\RootElement {
+final xhp class figcaption extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'figcaption';
