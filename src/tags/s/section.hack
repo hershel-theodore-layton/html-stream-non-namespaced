@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<cdbac3859e80e86690347158a7ece278>>
+ * @generated SignedSource<<0eb91dcbfc4a55f4253e771c90dd0cfc>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-section-element
  */
-final xhp class section extends SGMLStream\RootElement {
+final xhp class section extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'section';

@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<08f9ebfe162b57eb30a79b94c337b29d>>
+ * @generated SignedSource<<ff873e6fa499681b62111a3f5fb6c120>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-strong-element
  */
-final xhp class strong extends SGMLStream\RootElement {
+final xhp class strong extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'strong';

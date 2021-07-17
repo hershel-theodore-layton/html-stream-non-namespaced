@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<6c3c2ea67893d8289d2c5ff4f4bc1f88>>
+ * @generated SignedSource<<4dc99109d1a4418217cbf6d4b1d5bbc4>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-colgroup-element
  */
-final xhp class colgroup extends SGMLStream\RootElement {
+final xhp class colgroup extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

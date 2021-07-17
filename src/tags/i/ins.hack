@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<389d3c050ee34650eb7d34ccf154a7d6>>
+ * @generated SignedSource<<c781b48174517fe0dfb1fda157b8e9b8>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-ins-element
  */
-final xhp class ins extends SGMLStream\RootElement {
+final xhp class ins extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

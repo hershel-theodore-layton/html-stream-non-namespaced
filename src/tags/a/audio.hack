@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<3a54c2fbef190eae23f66919de90e5de>>
+ * @generated SignedSource<<8a1f1bb3e183c7bf1b2484199accd38b>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-audio-element
  */
-final xhp class audio extends SGMLStream\RootElement {
+final xhp class audio extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

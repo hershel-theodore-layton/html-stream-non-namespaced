@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c8652a57f34984ac69b63248a5dd1760>>
+ * @generated SignedSource<<0c6a939fb90d091379729178b2cc66a5>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-h6-element
  */
-final xhp class h6 extends SGMLStream\RootElement {
+final xhp class h6 extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'h6';

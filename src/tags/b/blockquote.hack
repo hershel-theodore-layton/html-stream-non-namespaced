@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<9c132def4d6316b30b7705b57da251fa>>
+ * @generated SignedSource<<bb6a81f4aadf81f981348b8a04380026>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-blockquote-element
  */
-final xhp class blockquote extends SGMLStream\RootElement {
+final xhp class blockquote extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

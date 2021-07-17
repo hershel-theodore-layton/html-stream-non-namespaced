@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<a5c1c5c88fa9dc00747b81cd83bc971b>>
+ * @generated SignedSource<<7098ebd0bc3e63ba923771cd5e743703>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-dialog-element
  */
-final xhp class dialog extends SGMLStream\RootElement {
+final xhp class dialog extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

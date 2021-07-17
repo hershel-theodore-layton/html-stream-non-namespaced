@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<4b346b0410b5852b0a96f4d79ffd5480>>
+ * @generated SignedSource<<0ecea50c722da6f369eca1831e46ba32>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-p-element
  */
-final xhp class p extends SGMLStream\RootElement {
+final xhp class p extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'p';

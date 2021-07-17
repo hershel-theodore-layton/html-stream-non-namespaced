@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<0eaa013252cc6c88775a79dbe7feb67f>>
+ * @generated SignedSource<<d21cabc630fd73112621bae9e00f8ec2>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-optgroup-element
  */
-final xhp class optgroup extends SGMLStream\RootElement {
+final xhp class optgroup extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

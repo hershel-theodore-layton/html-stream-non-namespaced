@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<23edaec3ea61fd688c3394df49058bcd>>
+ * @generated SignedSource<<c6e60a02ca6eaa78bc672d508e4ea535>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-s-element
  */
-final xhp class s extends SGMLStream\RootElement {
+final xhp class s extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 's';

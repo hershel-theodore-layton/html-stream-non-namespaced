@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<e22b01c1f7b8fc8def932c4563d5886e>>
+ * @generated SignedSource<<2278a7e3e677e520e7fd764a496ef586>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-dfn-element
  */
-final xhp class dfn extends SGMLStream\RootElement {
+final xhp class dfn extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'dfn';

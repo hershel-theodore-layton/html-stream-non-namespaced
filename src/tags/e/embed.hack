@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f3788771c45445de23a21726fa63404d>>
+ * @generated SignedSource<<318f61dc141d4c5acfe2c9ad47ad0de8>>
  */
 use namespace HTL\SGMLStream;
 
@@ -16,9 +16,8 @@ use namespace HTL\SGMLStream;
  * always mixed. If the typechecker rejects your HTML, edit the definition of this tag,
  * since it is always spec compliant to add more non-namespaced attributes.
  */
-final xhp class embed extends SGMLStream\RootElement {
+final xhp class embed extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

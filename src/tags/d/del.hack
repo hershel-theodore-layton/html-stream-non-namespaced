@@ -2,16 +2,15 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<e0df7c3ff4c2fab90cfa5851423c28e2>>
+ * @generated SignedSource<<f0ca13c8bcfe4dfaecf8d0b206755d75>>
  */
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-del-element
  */
-final xhp class del extends SGMLStream\RootElement {
+final xhp class del extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**
