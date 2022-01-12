@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f1731b1a6005fe5378c93b964d222cea>>
+ * @generated SignedSource<<be102c1f11cdc1e8e65a66408570540d>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class param extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'param';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-param-name

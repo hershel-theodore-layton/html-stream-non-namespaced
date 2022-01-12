@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<84da4a7cf81429b107c1769e3b5c726b>>
+ * @generated SignedSource<<63c8c173161cdc2e937be3589842ff64>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class q extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'q';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-q-cite

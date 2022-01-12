@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<42d26759fc50656dfb73037a336d724a>>
+ * @generated SignedSource<<b74f94206886c10574c82e81d7905bdc>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class details extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'details';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-details-open

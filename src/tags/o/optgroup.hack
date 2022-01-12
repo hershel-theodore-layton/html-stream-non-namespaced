@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<d21cabc630fd73112621bae9e00f8ec2>>
+ * @generated SignedSource<<24a9801bdc610a214ef6ba3c700ba065>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class optgroup extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'optgroup';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-optgroup-disabled

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<e626b8dc6c537090a3e6af1798e1fc46>>
+ * @generated SignedSource<<bd8b61b83ea1be115949dc1422c89e25>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class textarea extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'textarea';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-autocomplete

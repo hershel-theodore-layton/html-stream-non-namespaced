@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<e0a4711a0851e1207fb3458870bbe880>>
+ * @generated SignedSource<<50c087310a1152e1df8ab79c1f4c3c2a>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class track extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenTagOnly;
+
+  const string TAG_NAME = 'track';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-track-default

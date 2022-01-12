@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<63f109bac33cc39d675b74ce43bccc68>>
+ * @generated SignedSource<<bb2ff79957bc9a9f9a16455f075ae6f8>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class cite extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'cite';
 
   protected string $tagName = 'cite';
 }

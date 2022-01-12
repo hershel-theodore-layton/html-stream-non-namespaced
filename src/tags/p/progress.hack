@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<5de0dfd43b5a6d8459566f72d7f25f09>>
+ * @generated SignedSource<<33c8b7d8875143e36db1d74b8047a223>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class progress extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'progress';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-progress-value

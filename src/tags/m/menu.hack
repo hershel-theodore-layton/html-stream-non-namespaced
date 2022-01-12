@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<4166a451aa3713ee35b6882209c435e0>>
+ * @generated SignedSource<<36576c8885b093b6d07d72378ba7af35>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class menu extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'menu';
 
   protected string $tagName = 'menu';
 }

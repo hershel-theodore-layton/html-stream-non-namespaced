@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<dd2263ba7f004035defd90d88d701395>>
+ * @generated SignedSource<<1fc64dc6bb8e75fff461b498fe00a769>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class time extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'time';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-time-datetime

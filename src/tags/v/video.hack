@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<354bad844a067adda04d8754a24ce1ab>>
+ * @generated SignedSource<<adffc0bd60bed45cfac8f475f627401d>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class video extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'video';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-media-autoplay

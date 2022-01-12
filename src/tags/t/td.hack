@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<8efb3b9eb869cfef3856aa53237b946f>>
+ * @generated SignedSource<<128f97b93eae10b14ed77454aa745d9a>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class td extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'td';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-tdth-colspan

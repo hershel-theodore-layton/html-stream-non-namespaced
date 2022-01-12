@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<91b7695c59c3782b9b41c59d88262fec>>
+ * @generated SignedSource<<0e76ca61eb724e50c63faa00c7e3fe28>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class iframe extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'iframe';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-iframe-allow

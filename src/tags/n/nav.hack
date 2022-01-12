@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<7b0c96e48e646d78330ce21f11b37a22>>
+ * @generated SignedSource<<0cfb0b42dc24c36637994e07f0887a77>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class nav extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'nav';
 
   protected string $tagName = 'nav';
 }

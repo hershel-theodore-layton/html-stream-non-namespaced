@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<7abbb8c94a450519726546b3eaf15d9d>>
+ * @generated SignedSource<<0f9a6370a373b1209fd7df131a2834fd>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class option extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'option';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-option-disabled

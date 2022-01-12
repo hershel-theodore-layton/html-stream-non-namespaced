@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<a7a44f28c779a2990ed3e95215cd15df>>
+ * @generated SignedSource<<87a0b2231dbc75751d01347cab05f60e>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class canvas extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'canvas';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-canvas-height

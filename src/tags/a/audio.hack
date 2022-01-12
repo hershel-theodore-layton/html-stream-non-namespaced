@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<8a1f1bb3e183c7bf1b2484199accd38b>>
+ * @generated SignedSource<<6782ebe6ec76f6a3ae474d522ea07cda>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class audio extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'audio';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-media-autoplay

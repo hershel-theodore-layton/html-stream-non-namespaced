@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f71dafad45cbab09eb5bd7afb7d1bd3d>>
+ * @generated SignedSource<<fc2ad655386cca1927cc61d94e269298>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class abbr extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'abbr';
 
   protected string $tagName = 'abbr';
 }

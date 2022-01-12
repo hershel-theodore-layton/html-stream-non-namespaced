@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<21b511d0076865e002e71ff087a97d5a>>
+ * @generated SignedSource<<75ad2cbaf47697cfc561ac293e17b4fc>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class img extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenTagOnly;
+
+  const string TAG_NAME = 'img';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-img-alt

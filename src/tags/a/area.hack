@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<8e7e6d025c3e7ef2d68ce3458c0b61c5>>
+ * @generated SignedSource<<09ca72384840067a6c6d9fd1e6ffc343>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class area extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'area';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-area-alt

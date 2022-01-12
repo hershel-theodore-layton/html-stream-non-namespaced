@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<ad49d6f5355f36beecb426399645dc3a>>
+ * @generated SignedSource<<106e461c279c59fc013907f7498812ba>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class body extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'body';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#handler-window-onafterprint

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<843c7b9c07cf14bfd1ccaf5356bbb481>>
+ * @generated SignedSource<<cc7df86da93fe6975203f2e072ade713>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class bdo extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'bdo';
 
   protected string $tagName = 'bdo';
 }

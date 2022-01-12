@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<11b364d168185a9f23acec0598c4f63a>>
+ * @generated SignedSource<<f6d2fc6f99c914ef65bc1591e1f17275>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class select extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'select';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-autocomplete

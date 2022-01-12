@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<953ac04e34e4275b3bc468678d5d21be>>
+ * @generated SignedSource<<142bc2af1bfa5355783023c7400312f0>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class input extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenTagOnly;
+
+  const string TAG_NAME = 'input';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-input-accept

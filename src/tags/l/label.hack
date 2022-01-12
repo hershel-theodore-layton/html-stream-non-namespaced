@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<1a24c4b42dfe212e358481c0719ddd80>>
+ * @generated SignedSource<<5798d4765bde0e4c232b755caad64033>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class label extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'label';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-label-for

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<b5c0b948c447f3971661fe63de545a76>>
+ * @generated SignedSource<<ebec03f05c6e03dc633db55d714e85da>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class slot extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'slot';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-slot-name

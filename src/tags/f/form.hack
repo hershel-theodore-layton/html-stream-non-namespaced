@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<af2a846aa33e4dfd3e6b209ec0aa8528>>
+ * @generated SignedSource<<b4599e76efc07e95dd848864f81c24ed>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class form extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'form';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-form-accept-charset

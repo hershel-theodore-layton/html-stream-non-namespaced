@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<68e0b19c217502320fd5b165793a4b1e>>
+ * @generated SignedSource<<9e01b3988863f0f84f3bf32f3eed97ad>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class script extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTagsAndUnescapedContent;
+
+  const string TAG_NAME = 'script';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-script-async

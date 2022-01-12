@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<629a6d3105704fb86dff0c25be97156a>>
+ * @generated SignedSource<<c500ebbd423afdd452f912f4087e547e>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class meta extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenTagOnly;
+
+  const string TAG_NAME = 'meta';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-meta-charset

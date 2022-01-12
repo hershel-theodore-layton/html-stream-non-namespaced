@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<5c8d3fe4bed190bf8689e22cfbee2398>>
+ * @generated SignedSource<<1e34dbd01e6fce86f180ec8a5bde7302>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class bdi extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'bdi';
 
   protected string $tagName = 'bdi';
 }

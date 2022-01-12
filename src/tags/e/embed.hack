@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<318f61dc141d4c5acfe2c9ad47ad0de8>>
+ * @generated SignedSource<<4d05f2c70bb14dbd30f4df5dd07a81c6>>
  */
 use namespace HTL\SGMLStream;
 
@@ -19,6 +19,8 @@ use namespace HTL\SGMLStream;
 final xhp class embed extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'embed';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-height

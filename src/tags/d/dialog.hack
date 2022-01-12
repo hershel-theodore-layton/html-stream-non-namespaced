@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<7098ebd0bc3e63ba923771cd5e743703>>
+ * @generated SignedSource<<37206e847050fb2aa193bd7cad4e7696>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -12,6 +12,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class dialog extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'dialog';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-dialog-open

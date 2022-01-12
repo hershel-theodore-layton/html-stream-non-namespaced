@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<63490f47c9f01fd683c9cc9a69fdef6b>>
+ * @generated SignedSource<<fb4cb338c5f6d3b64e9e8044d958408d>>
  */
 use namespace HTL\SGMLStream;
 
@@ -12,6 +12,8 @@ use namespace HTL\SGMLStream;
 final xhp class caption extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'caption';
 
   protected string $tagName = 'caption';
 }
