@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<bd8b61b83ea1be115949dc1422c89e25>>
+ * @generated SignedSource<<44565e5016d470a013d5e388b0b5ba19>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -73,6 +73,4 @@ final xhp class textarea extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-textarea-wrap
      */
     enum {'hard', 'soft'} wrap;
-
-  protected string $tagName = 'textarea';
 }

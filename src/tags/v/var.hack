@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c05535ae9fcc0cee6cadd72a56006f51>>
+ * @generated SignedSource<<2f5270926a2ff63c0f3a45d4386cb431>>
  */
 use namespace HTL\SGMLStream;
 
@@ -14,6 +14,4 @@ final xhp class var extends HTMLElementBase {
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   const string TAG_NAME = 'var';
-
-  protected string $tagName = 'var';
 }

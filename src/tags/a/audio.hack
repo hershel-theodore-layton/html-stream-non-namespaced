@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<6782ebe6ec76f6a3ae474d522ea07cda>>
+ * @generated SignedSource<<44895be9e68bf449eb820cf79589ec5a>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -44,6 +44,4 @@ final xhp class audio extends HTMLElementBase {
      * A URL potentially surrounded by spaces.
      */
     string src;
-
-  protected string $tagName = 'audio';
 }

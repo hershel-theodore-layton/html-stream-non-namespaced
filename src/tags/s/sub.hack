@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<8f70421d2ca093eb1669d2b0660c0da0>>
+ * @generated SignedSource<<6404ec4c30381024e13e61da8fb06096>>
  */
 use namespace HTL\SGMLStream;
 
@@ -14,6 +14,4 @@ final xhp class sub extends HTMLElementBase {
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   const string TAG_NAME = 'sub';
-
-  protected string $tagName = 'sub';
 }

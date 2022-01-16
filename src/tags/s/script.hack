@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<9e01b3988863f0f84f3bf32f3eed97ad>>
+ * @generated SignedSource<<373f460cbdc7b36da26c0ef6b828e4ea>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -63,6 +63,4 @@ final xhp class script extends HTMLElementBase {
      * module javascript. Any other value makes this script tag a data block.
      */
     string type;
-
-  protected string $tagName = 'script';
 }

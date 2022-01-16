@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f6d2fc6f99c914ef65bc1591e1f17275>>
+ * @generated SignedSource<<7dbf53f52201c33d9e1b9db16dfd1d6c>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -46,6 +46,4 @@ final xhp class select extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-select-size
      */
     int size;
-
-  protected string $tagName = 'select';
 }

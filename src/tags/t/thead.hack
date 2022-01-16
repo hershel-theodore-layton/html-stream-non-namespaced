@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<63a7d4f8fcab2bf6fa9b44a6a4e50233>>
+ * @generated SignedSource<<90f2776549b87a0d63079390bde2c41f>>
  */
 use namespace HTL\SGMLStream;
 
@@ -14,6 +14,4 @@ final xhp class thead extends HTMLElementBase {
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   const string TAG_NAME = 'thead';
-
-  protected string $tagName = 'thead';
 }

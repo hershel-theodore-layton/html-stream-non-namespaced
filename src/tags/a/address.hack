@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<68a7ba71450e1ca69bb4243537eecd67>>
+ * @generated SignedSource<<b17c82c6d33ea2ba9d43300953a973b4>>
  */
 use namespace HTL\SGMLStream;
 
@@ -14,6 +14,4 @@ final xhp class address extends HTMLElementBase {
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   const string TAG_NAME = 'address';
-
-  protected string $tagName = 'address';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<b74f94206886c10574c82e81d7905bdc>>
+ * @generated SignedSource<<122a45b456a331ab0e37e5d62dd67f35>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -19,6 +19,4 @@ final xhp class details extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-details-open
      */
     SGMLStreamInterfaces\BooleanAttribute open;
-
-  protected string $tagName = 'details';
 }

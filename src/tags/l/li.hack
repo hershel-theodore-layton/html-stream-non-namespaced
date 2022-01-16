@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<a5da824c851da809fc90a509832ebdbc>>
+ * @generated SignedSource<<1eb5942a81dda6fe34feb353d93c2cb9>>
  */
 use namespace HTL\SGMLStream;
 
@@ -19,6 +19,4 @@ final xhp class li extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-li-value
      */
     int value;
-
-  protected string $tagName = 'li';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<4d05f2c70bb14dbd30f4df5dd07a81c6>>
+ * @generated SignedSource<<029115640d71f917aa7155081c2f7a7d>>
  */
 use namespace HTL\SGMLStream;
 
@@ -40,6 +40,4 @@ final xhp class embed extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-width
      */
     int width;
-
-  protected string $tagName = 'embed';
 }

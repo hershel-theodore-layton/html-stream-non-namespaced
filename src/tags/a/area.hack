@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<09ca72384840067a6c6d9fd1e6ffc343>>
+ * @generated SignedSource<<2152106f4b4aac6c76fa7d6c92c5fb23>>
  */
 use namespace HTL\SGMLStream;
 
@@ -71,6 +71,4 @@ final xhp class area extends HTMLElementBase {
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string target;
-
-  protected string $tagName = 'area';
 }

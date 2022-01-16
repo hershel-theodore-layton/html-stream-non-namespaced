@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<0f9a6370a373b1209fd7df131a2834fd>>
+ * @generated SignedSource<<b4b9191c2b0bf4c1f518cb00bc56c897>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -33,6 +33,4 @@ final xhp class option extends HTMLElementBase {
      * Any text is allowed.
      */
     string value;
-
-  protected string $tagName = 'option';
 }

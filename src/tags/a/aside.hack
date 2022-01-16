@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<54a5d470712883cd11b5e2a1b124a973>>
+ * @generated SignedSource<<ec2e2e9c32d998742e20e0715654d62c>>
  */
 use namespace HTL\SGMLStream;
 
@@ -14,6 +14,4 @@ final xhp class aside extends HTMLElementBase {
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   const string TAG_NAME = 'aside';
-
-  protected string $tagName = 'aside';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<5798d4765bde0e4c232b755caad64033>>
+ * @generated SignedSource<<7910f1e6a63bb579eba4ecdf0fd632a1>>
  */
 use namespace HTL\SGMLStream;
 
@@ -20,6 +20,4 @@ final xhp class label extends HTMLElementBase {
      * The id of a labelable element.
      */
     string for;
-
-  protected string $tagName = 'label';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<50c087310a1152e1df8ab79c1f4c3c2a>>
+ * @generated SignedSource<<ec4ee00e4bf8003c53e47597c5224496>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -44,6 +44,4 @@ final xhp class track extends HTMLElementBase {
      * A valid BCP 47 language tag.
      */
     string srclang;
-
-  protected string $tagName = 'track';
 }

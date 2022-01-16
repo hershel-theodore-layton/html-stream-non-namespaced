@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<106e461c279c59fc013907f7498812ba>>
+ * @generated SignedSource<<6889b19a84264b31c113acea8f6fa1fa>>
  */
 use namespace HTL\SGMLStream;
 
@@ -79,6 +79,4 @@ final xhp class body extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#handler-window-onunload
      */
     string onunload;
-
-  protected string $tagName = 'body';
 }

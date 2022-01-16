@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<b6f1e5195d2f23875593c9308431be7a>>
+ * @generated SignedSource<<60fdcfd5f6e8d20cb11c81f8e20f9f4f>>
  */
 use namespace HTL\SGMLStream;
 
@@ -26,6 +26,4 @@ final xhp class del extends HTMLElementBase {
      * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string-with-optional-time for more information.
      */
     string datetime;
-
-  protected string $tagName = 'del';
 }

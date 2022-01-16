@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<1fc64dc6bb8e75fff461b498fe00a769>>
+ * @generated SignedSource<<0e437a69261f45aa47d7a942127354b1>>
  */
 use namespace HTL\SGMLStream;
 
@@ -21,6 +21,4 @@ final xhp class time extends HTMLElementBase {
      * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string-with-optional-time for more information.
      */
     string datetime;
-
-  protected string $tagName = 'time';
 }

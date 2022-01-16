@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<549201f95519c6c051ace59c2e006dcd>>
+ * @generated SignedSource<<732fd3487eba6ea1b08baeeb6bc4a5d2>>
  */
 use namespace HTL\SGMLStream;
 
@@ -20,6 +20,4 @@ final xhp class data extends HTMLElementBase {
      * Data in any machine-readable format.
      */
     string value;
-
-  protected string $tagName = 'data';
 }

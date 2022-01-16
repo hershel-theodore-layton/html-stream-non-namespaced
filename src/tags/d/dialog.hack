@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<37206e847050fb2aa193bd7cad4e7696>>
+ * @generated SignedSource<<2d0719889f30e68dce3093f1e96c5cc7>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -19,6 +19,4 @@ final xhp class dialog extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-dialog-open
      */
     SGMLStreamInterfaces\BooleanAttribute open;
-
-  protected string $tagName = 'dialog';
 }

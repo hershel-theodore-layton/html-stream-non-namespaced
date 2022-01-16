@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<a041718a941cc917acc63440e9082c1f>>
+ * @generated SignedSource<<ce82c8f69849602db56f04e65c2c4417>>
  */
 use namespace HTL\SGMLStream;
 
@@ -14,6 +14,4 @@ final xhp class kbd extends HTMLElementBase {
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   const string TAG_NAME = 'kbd';
-
-  protected string $tagName = 'kbd';
 }

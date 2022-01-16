@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<ebec03f05c6e03dc633db55d714e85da>>
+ * @generated SignedSource<<8209b24e00a828cfc9556bb74efa586a>>
  */
 use namespace HTL\SGMLStream;
 
@@ -20,6 +20,4 @@ final xhp class slot extends HTMLElementBase {
      * Any name.
      */
     string name;
-
-  protected string $tagName = 'slot';
 }

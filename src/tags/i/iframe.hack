@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<0e76ca61eb724e50c63faa00c7e3fe28>>
+ * @generated SignedSource<<8a95c51fe0bd3fdaeb30e6ccba61a477>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -73,6 +73,4 @@ final xhp class iframe extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-width
      */
     int width;
-
-  protected string $tagName = 'iframe';
 }

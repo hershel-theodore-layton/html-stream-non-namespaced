@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<bdb410976cf42a5f6173cbb8a2fbfbbd>>
+ * @generated SignedSource<<3cbb99a087471fa8d5009f2cf034b8aa>>
  */
 use namespace HTL\SGMLStream;
 
@@ -14,6 +14,4 @@ final xhp class legend extends HTMLElementBase {
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   const string TAG_NAME = 'legend';
-
-  protected string $tagName = 'legend';
 }

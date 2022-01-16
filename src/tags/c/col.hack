@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f97f0cbebb8315f40797c0e5a22c861b>>
+ * @generated SignedSource<<68d35553ad4fba95410d27fd69c00081>>
  */
 use namespace HTL\SGMLStream;
 
@@ -19,6 +19,4 @@ final xhp class col extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-col-span
      */
     int span;
-
-  protected string $tagName = 'col';
 }

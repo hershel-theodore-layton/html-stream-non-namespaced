@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<142bc2af1bfa5355783023c7400312f0>>
+ * @generated SignedSource<<c64c54911731e18b6afd7654fca379d6>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -182,6 +182,4 @@ final xhp class input extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-width
      */
     int width;
-
-  protected string $tagName = 'input';
 }
