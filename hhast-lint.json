@@ -9,14 +9,6 @@
     "Facebook\\HHAST\\FinalOrAbstractClassLinter",
     "Facebook\\HHAST\\HHClientLinter"
   ],
-  "linterConfigs": {
-    "Facebook\\HHAST\\HHClientLinter": {
-      "__comment": "Ignore duplicate property $this->tagName.",
-      "ignore": [
-        5635
-      ]
-    }
-  },
   "overrides": [
     {
       "patterns": [
