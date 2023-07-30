@@ -1,8 +1,6 @@
 // html-stream-non-namespaced is MIT licensed, see /LICENSE.
 /**
  * This file is generated. Do not modify it manually!
- *
- * @generated SignedSource<<3944387b6bd7c6aa40dad27787649727>>
  */
 use namespace HTL\SGMLStream;
 
@@ -18,7 +16,8 @@ final xhp class style extends HTMLElementBase {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-style-media
      * A valid media query list. See
-     * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-media-query-list for more information.
+     * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-media-query-list
+     * for more information.
      */
     string media;
 }

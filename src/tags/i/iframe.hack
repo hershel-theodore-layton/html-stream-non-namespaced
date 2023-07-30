@@ -1,8 +1,6 @@
 // html-stream-non-namespaced is MIT licensed, see /LICENSE.
 /**
  * This file is generated. Do not modify it manually!
- *
- * @generated SignedSource<<8a95c51fe0bd3fdaeb30e6ccba61a477>>
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
@@ -55,7 +53,8 @@ final xhp class iframe extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-iframe-sandbox
      * A set of unique space-separated tokens. Examples of valid values are
      * "allow-forms", "allow-modals", "allow-orientation-lock" and more may be added. See
-     * https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox for more information.
+     * https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox
+     * for more information.
      */
     string sandbox,
     /**
