@@ -1,6 +1,6 @@
 {
-  "name": "hershel-theodore-layton/html-stream-non-namespaced",
-  "description": "HTML elements for sgml-stream in the root namespace.",
+  "name": "hershel-theodore-layton/html-stream-namespaced",
+  "description": "HTML elements for sgml-stream in the HTL\\HTMLStream namespace.",
   "license": "MIT",
   "require": {
     "hhvm": "^4.102",
@@ -8,8 +8,8 @@
   },
   "require-dev": {
     "hhvm/hhvm-autoload": "^3.2",
-    "hhvm/hacktest": "^2.3",
-    "facebook/fbexpect": "^2.8"
+    "hhvm/hsl": "^4",
+    "hhvm/hsl-experimental": "^4"
   },
   "scripts": {
     "post-install-cmd": [

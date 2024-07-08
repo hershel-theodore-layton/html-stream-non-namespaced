@@ -8,7 +8,7 @@ on:
   pull_request:
   schedule:
     # Run every day at 6:34PM
-    - cron: '34 18 * * *'
+    - cron: "34 18 * * *"
 jobs:
   build:
     name: HHVM ${{matrix.hhvm}}
@@ -31,3 +31,4 @@ jobs:
           hhvm_flags: -dhhvm.autoload.enabled=true -dhhvm.autoload.db.path=.var/facts-%{euid}-%{schema}.db
           skip_lint: ${{matrix.hhvm == '4.102'}}
           lint_engine: pha
+          skip_tests: true
