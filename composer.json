@@ -3,7 +3,7 @@
   "description": "HTML elements for sgml-stream in the root namespace.",
   "license": "MIT",
   "require": {
-    "hhvm": "^4.102",
+    "hhvm": ">=4.102",
     "hershel-theodore-layton/sgml-stream": "dev-master || ^2"
   },
   "require-dev": {},
