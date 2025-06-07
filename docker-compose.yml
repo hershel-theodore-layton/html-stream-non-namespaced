@@ -1,0 +1,12 @@
+services:
+  hhvm:
+    container_name: theodore-html-stream-non-namespaced-container
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - type: bind
+        source: .
+        target: /mnt/project
+    ports:
+      - 48562:10641
