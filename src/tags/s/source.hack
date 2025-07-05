@@ -14,6 +14,10 @@ final xhp class source extends HTMLElementBase {
   const string TAG_NAME = 'source';
   attribute
     /**
+     * @see https://html.spec.whatwg.org/multipage/embedded-content-other.html#attr-dim-height
+     */
+    int height,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#attr-source-media
      * A valid media query list. See
      * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-media-query-list
@@ -42,5 +46,9 @@ final xhp class source extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-source-type
      * A MIME type string.
      */
-    string type;
+    string type,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/embedded-content-other.html#attr-dim-width
+     */
+    int width;
 }

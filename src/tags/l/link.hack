@@ -20,8 +20,14 @@ final xhp class link extends HTMLElementBase {
      */
     string as,
     /**
+     * @see https://html.spec.whatwg.org/multipage/semantics.html#attr-link-blocking
+     * Not very useful at this time. It is not possible to use this attribute to make
+     * something that was render-blocking not render-blocking.
+     */
+    enum {'render'} blocking,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#attr-link-color
-     * I CSS color value.
+     * A CSS color value.
      */
     string color,
     /**
@@ -32,6 +38,13 @@ final xhp class link extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-link-disabled
      */
     SGMLStreamInterfaces\BooleanAttribute disabled,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/semantics.html#attr-link-fetchpriority
+     * A modern way to increase (or decrease) the priority with which the browser fetches
+     * a resource. See
+     * https://html.spec.whatwg.org/multipage/urls-and-fetching.html#fetch-priority-attribute
+     */
+    enum {'high', 'low', 'auto'} fetchpriority,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-link-href
      * A URL potentially surrounded by spaces.

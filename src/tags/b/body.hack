@@ -54,9 +54,17 @@ final xhp class body extends HTMLElementBase {
      */
     string onpagehide,
     /**
+     * @see https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onpagereveal
+     */
+    string onpagereveal,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#handler-window-onpageshow
      */
     string onpageshow,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onpageswap
+     */
+    string onpageswap,
     /**
      * @see https://html.spec.whatwg.org/multipage/#handler-window-onpopstate
      */

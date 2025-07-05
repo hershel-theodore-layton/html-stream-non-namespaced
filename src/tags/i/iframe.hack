@@ -29,6 +29,10 @@ final xhp class iframe extends HTMLElementBase {
      */
     int height,
     /**
+     * @see https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-loading
+     */
+    enum {'lazy', 'eager'} loading,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#attr-iframe-name
      * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
      * more see

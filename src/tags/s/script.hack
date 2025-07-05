@@ -18,6 +18,12 @@ final xhp class script extends HTMLElementBase {
      */
     SGMLStreamInterfaces\BooleanAttribute async,
     /**
+     * @see https://html.spec.whatwg.org/multipage/scripting.html#attr-script-blocking
+     * Not very useful at this time. It is not possible to use this attribute to make an
+     * inline script not render-blocking.
+     */
+    enum {'render'} blocking,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#attr-script-crossorigin
      */
     enum {'anonymous', 'use-credentials'} crossorigin,
@@ -25,6 +31,13 @@ final xhp class script extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-script-defer
      */
     SGMLStreamInterfaces\BooleanAttribute defer,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/scripting.html#attr-script-fetchpriority
+     * A modern way to increase (or decrease) the priority with which the browser fetches
+     * a resource. See
+     * https://html.spec.whatwg.org/multipage/urls-and-fetching.html#fetch-priority-attribute
+     */
+    enum {'high', 'low', 'auto'} fetchpriority,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-script-integrity
      * Commonly a hash algorithm a "-" and a base64 encoded value of the hash. See

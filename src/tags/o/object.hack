@@ -35,6 +35,11 @@ final xhp class object extends HTMLElementBase {
      */
     string name,
     /**
+     * @see https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-object-type
+     * A MIME type string.
+     */
+    string type,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hyperlink-usemap
      * A hash-name reference to a map element.
      */

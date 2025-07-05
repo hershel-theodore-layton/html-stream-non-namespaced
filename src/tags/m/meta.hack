@@ -34,6 +34,12 @@ final xhp class meta extends HTMLElementBase {
       'content-security-policy',
     } http-equiv,
     /**
+     * @see https://html.spec.whatwg.org/multipage/semantics.html#attr-meta-media
+     * Unless the name is theme-color, the media attribute has no effect on the
+     * processing model and must not be used by authors.
+     */
+    string media,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#attr-meta-name
      * Any name.
      */

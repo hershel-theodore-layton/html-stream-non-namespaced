@@ -14,6 +14,10 @@ final xhp class dialog extends HTMLElementBase {
   const string TAG_NAME = 'dialog';
   attribute
     /**
+     * @see https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-dialog-closedby
+     */
+    enum {'any', 'closerequest', 'none'} closedby,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#attr-dialog-open
      */
     SGMLStreamInterfaces\BooleanAttribute open;

@@ -27,6 +27,13 @@ final xhp class img extends HTMLElementBase {
      */
     enum {'sync', 'async', 'auto'} decoding,
     /**
+     * @see https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-fetchpriority
+     * A modern way to increase (or decrease) the priority with which the browser fetches
+     * a resource. See
+     * https://html.spec.whatwg.org/multipage/urls-and-fetching.html#fetch-priority-attribute
+     */
+    enum {'high', 'low', 'auto'} fetchpriority,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-height
      */
     int height,

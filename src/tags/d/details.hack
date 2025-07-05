@@ -14,6 +14,11 @@ final xhp class details extends HTMLElementBase {
   const string TAG_NAME = 'details';
   attribute
     /**
+     * @see https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-details-name
+     * Name of group of mutually-exclusive details elements
+     */
+    string name,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#attr-details-open
      */
     SGMLStreamInterfaces\BooleanAttribute open;

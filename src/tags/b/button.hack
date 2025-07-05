@@ -14,6 +14,17 @@ final xhp class button extends HTMLElementBase {
   const string TAG_NAME = 'button';
   attribute
     /**
+     * @see https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command
+     * Valid options include: toggle-popover, show-popover, hide-popover, close,
+     * request-close, show-modal, and a custom command keyword of your choosing
+     */
+    string command,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-commandfor
+     * A valid id of the element on which to perform the command
+     */
+    string commandfor,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-disabled
      */
     SGMLStreamInterfaces\BooleanAttribute disabled,
@@ -55,6 +66,15 @@ final xhp class button extends HTMLElementBase {
      * Any name except for the empty string and isindex.
      */
     string name,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/popover.html#attr-popovertarget
+     * A valid id of the popovertarget
+     */
+    string popovertarget,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction
+     */
+    enum {'toggle', 'show', 'hide'} popovertargetaction,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-button-type
      */
