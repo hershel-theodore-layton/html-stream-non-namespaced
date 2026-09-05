@@ -15,7 +15,7 @@ final xhp class meta extends HTMLElementBase {
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-meta-charset
-     * The only valid value is a case insensitive "utf-8".
+     * The only valid value is a case-insensitive "utf-8".
      */
     string charset,
     /**

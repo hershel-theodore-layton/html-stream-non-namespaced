@@ -15,7 +15,7 @@ final xhp class details extends HTMLElementBase {
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-details-name
-     * Name of group of mutually-exclusive details elements
+     * Name of a group of mutually exclusive details elements.
      */
     string name,
     /**

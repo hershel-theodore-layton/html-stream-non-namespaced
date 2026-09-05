@@ -20,7 +20,7 @@ final xhp class area extends HTMLElementBase {
     string alt,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-area-coords
-     * A list of comma separated floating point numbers.
+     * A list of comma-separated floating-point numbers.
      */
     string coords,
     /**
@@ -35,7 +35,7 @@ final xhp class area extends HTMLElementBase {
     string href,
     /**
      * @see https://html.spec.whatwg.org/multipage/#ping
-     * A space-separated list of http(s) urls.
+     * A space-separated list of HTTP or HTTPS URLs.
      */
     string ping,
     /**
@@ -54,7 +54,7 @@ final xhp class area extends HTMLElementBase {
     } referrerpolicy,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hyperlink-rel
-     * A space separated list of keywords. F.e. "next" or "license". See
+     * A space-separated list of keywords. For example, "next" or "license". See
      * https://html.spec.whatwg.org/multipage/links.html#linkTypes for more information.
      */
     string rel,
@@ -64,8 +64,8 @@ final xhp class area extends HTMLElementBase {
     enum {'circle', 'default', 'poly', 'rect'} shape,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hyperlink-target
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
-     * more see
+     * A valid browsing context name, for example, "_blank", "_self" or "_parent". For
+     * more information, see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string target;

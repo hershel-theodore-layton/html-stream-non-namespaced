@@ -16,12 +16,12 @@ final xhp class button extends HTMLElementBase {
     /**
      * @see https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command
      * Valid options include: toggle-popover, show-popover, hide-popover, close,
-     * request-close, show-modal, and a custom command keyword of your choosing
+     * request-close, show-modal, and a custom command keyword of your choosing.
      */
     string command,
     /**
      * @see https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-commandfor
-     * A valid id of the element on which to perform the command
+     * A valid ID of the element on which to perform the command.
      */
     string commandfor,
     /**
@@ -30,7 +30,7 @@ final xhp class button extends HTMLElementBase {
     SGMLStreamInterfaces\BooleanAttribute disabled,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fae-form
-     * A valid id of a form element in the same tree.
+     * A valid ID of a form element in the same tree.
      */
     string form,
     /**
@@ -56,8 +56,8 @@ final xhp class button extends HTMLElementBase {
     SGMLStreamInterfaces\BooleanAttribute formnovalidate,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fs-formtarget
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
-     * more see
+     * A valid browsing context name, for example, "_blank", "_self" or "_parent". For
+     * more information, see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string formtarget,
@@ -68,7 +68,7 @@ final xhp class button extends HTMLElementBase {
     string name,
     /**
      * @see https://html.spec.whatwg.org/multipage/popover.html#attr-popovertarget
-     * A valid id of the popovertarget
+     * A valid ID of the popovertarget.
      */
     string popovertarget,
     /**

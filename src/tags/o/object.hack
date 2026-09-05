@@ -24,13 +24,13 @@ final xhp class object extends HTMLElementBase {
     int height,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fae-form
-     * A valid id of a form element in the same tree.
+     * A valid ID of a form element in the same tree.
      */
     string form,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-object-name
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
-     * more see
+     * A valid browsing context name, for example, "_blank", "_self" or "_parent". For
+     * more information, see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string name,

@@ -24,7 +24,7 @@ final xhp class select extends HTMLElementBase {
     SGMLStreamInterfaces\BooleanAttribute disabled,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fae-form
-     * A valid id of a form element in the same tree.
+     * A valid ID of a form element in the same tree.
      */
     string form,
     /**

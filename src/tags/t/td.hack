@@ -19,7 +19,7 @@ final xhp class td extends HTMLElementBase {
     int colspan,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-tdth-headers
-     * A set of unique space-separated tokens. Each of which is an id of a th element in
+     * A set of unique space-separated tokens, each of which is an ID of a th element in
      * the same table.
      */
     string headers,

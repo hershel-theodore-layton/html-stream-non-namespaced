@@ -25,7 +25,7 @@ final xhp class textarea extends HTMLElementBase {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-dirname
      * Any name that is not an empty string. The browser will implicitly append `.dir` in
-     * the urlencoded parameters sent to the server.
+     * the URL-encoded parameters sent to the server.
      */
     string dirname,
     /**
@@ -34,7 +34,7 @@ final xhp class textarea extends HTMLElementBase {
     SGMLStreamInterfaces\BooleanAttribute disabled,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fae-form
-     * A valid id of a form element in the same tree.
+     * A valid ID of a form element in the same tree.
      */
     string form,
     /**
@@ -52,7 +52,7 @@ final xhp class textarea extends HTMLElementBase {
     string name,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-textarea-placeholder
-     * Any string is allowed. Line feeds and carriage represent are line breaks.
+     * Any string is allowed. Line feeds and carriage returns are line breaks.
      */
     string placeholder,
     /**

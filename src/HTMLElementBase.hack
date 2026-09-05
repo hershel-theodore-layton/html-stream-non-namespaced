@@ -70,8 +70,8 @@ abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
     SGMLStreamInterfaces\BooleanAttribute hidden,
     /**
      * @see https://html.spec.whatwg.org/multipage/#the-id-attribute
-     * A unique value amount all id attributes of the HTML elements in your document. At
-     * least one character in length and without ascii whitespace.
+     * A unique value among all ID attributes of the HTML elements in your document. At
+     * least one character long and without ASCII whitespace.
      */
     string id,
     /**
@@ -108,7 +108,7 @@ abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
     string itemprop,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-itemref
-     * A set of unique space-separated tokens referring to HTML element ids in the
+     * A set of unique space-separated tokens referring to HTML element IDs in the
      * current document.
      */
     string itemref,

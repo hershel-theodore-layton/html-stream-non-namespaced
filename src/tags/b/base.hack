@@ -20,8 +20,8 @@ final xhp class base extends HTMLElementBase {
     string href,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-base-target
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
-     * more see
+     * A valid browsing context name, for example, "_blank", "_self" or "_parent". For
+     * more information, see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string target;

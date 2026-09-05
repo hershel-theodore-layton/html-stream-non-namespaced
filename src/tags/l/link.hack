@@ -70,7 +70,7 @@ final xhp class link extends HTMLElementBase {
     string imagesrcset,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-link-integrity
-     * Commonly a hash algorithm a "-" and a base64 encoded value of the hash. See
+     * A hash algorithm followed by a hyphen and a base64-encoded value of the hash. See
      * https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-attribute for
      * more information.
      */
@@ -98,13 +98,13 @@ final xhp class link extends HTMLElementBase {
     } referrerpolicy,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-link-rel
-     * A space separated list of keywords. F.e. "next" or "license". See
+     * A space-separated list of keywords. For example, "next" or "license". See
      * https://html.spec.whatwg.org/multipage/links.html#linkTypes for more information.
      */
     string rel,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-link-sizes
-     * Either the string "any" or two pixel values, separated by an "x"
+     * Either the string "any" or two pixel values, separated by an "x".
      */
     string sizes,
     /**

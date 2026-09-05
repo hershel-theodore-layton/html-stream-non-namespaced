@@ -15,13 +15,13 @@ final xhp class output extends HTMLElementBase {
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-output-for
-     * A set of unique space-separated tokens. Each of which is an id of an element in
+     * A set of unique space-separated tokens, each of which is an ID of an element in
      * the same document.
      */
     string for,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fae-form
-     * A valid id of a form element in the same tree.
+     * A valid ID of a form element in the same tree.
      */
     string form,
     /**

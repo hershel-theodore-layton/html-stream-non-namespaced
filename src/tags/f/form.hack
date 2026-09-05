@@ -15,7 +15,7 @@ final xhp class form extends HTMLElementBase {
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-form-accept-charset
-     * The only valid value is a case insensitive "utf-8".
+     * The only valid value is a case-insensitive "utf-8".
      */
     string accept-charset,
     /**
@@ -51,14 +51,14 @@ final xhp class form extends HTMLElementBase {
     SGMLStreamInterfaces\BooleanAttribute novalidate,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-form-rel
-     * A space separated list of keywords. F.e. "next" or "license". See
+     * A space-separated list of keywords. For example, "next" or "license". See
      * https://html.spec.whatwg.org/multipage/links.html#linkTypes for more information.
      */
     string rel,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fs-target
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
-     * more see
+     * A valid browsing context name, for example, "_blank", "_self" or "_parent". For
+     * more information, see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string target;

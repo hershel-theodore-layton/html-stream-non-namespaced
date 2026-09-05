@@ -23,7 +23,7 @@ final xhp class track extends HTMLElementBase {
     enum {'subtitles', 'captions', 'descriptions', 'chapters', 'metadata'} kind,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-track-label
-     * Any non empty string.
+     * Any non-empty string.
      */
     string label,
     /**

@@ -15,7 +15,7 @@ final xhp class label extends HTMLElementBase {
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-label-for
-     * The id of a labelable element.
+     * The ID of a labelable element.
      */
     string for;
 }

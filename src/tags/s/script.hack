@@ -40,7 +40,7 @@ final xhp class script extends HTMLElementBase {
     enum {'high', 'low', 'auto'} fetchpriority,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-script-integrity
-     * Commonly a hash algorithm a "-" and a base64 encoded value of the hash. See
+     * Commonly a hash algorithm, a "-", and a base64-encoded value of the hash. See
      * https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-attribute for
      * more information.
      */
@@ -70,8 +70,8 @@ final xhp class script extends HTMLElementBase {
     string src,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-script-type
-     * An empty string or a javascript MIME type for non module javascript. "module" for
-     * module javascript. Any other value makes this script tag a data block.
+     * An empty string or a JavaScript MIME type for non-module JavaScript. "module" for
+     * module JavaScript. Any other value makes this script tag a data block.
      */
     string type;
 }

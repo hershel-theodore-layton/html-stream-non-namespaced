@@ -34,8 +34,8 @@ final xhp class iframe extends HTMLElementBase {
     enum {'lazy', 'eager'} loading,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-iframe-name
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
-     * more see
+     * A valid browsing context name, for example, "_blank", "_self" or "_parent". For
+     * more information, see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string name,
@@ -69,7 +69,7 @@ final xhp class iframe extends HTMLElementBase {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-iframe-srcdoc
      * Any number of comments and whitespace, optional doctype, any number of comments
-     * and whitespace, an html document, any number of comments and whitespace.
+     * and whitespace, an HTML document, any number of comments and whitespace.
      */
     string srcdoc,
     /**
