@@ -3,6 +3,9 @@
  * This file is generated. Do not modify it manually!
  */
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:e6dc9fd4e81b81f37ca1'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-meter-element

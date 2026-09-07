@@ -3,6 +3,9 @@
  * This file is generated. Do not modify it manually!
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:6f288763929d0f3d6353'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-textarea-element

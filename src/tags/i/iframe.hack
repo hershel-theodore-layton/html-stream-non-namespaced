@@ -3,6 +3,9 @@
  * This file is generated. Do not modify it manually!
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:c639673bfbd9168f243f'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-iframe-element

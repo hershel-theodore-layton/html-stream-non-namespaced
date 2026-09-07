@@ -3,6 +3,9 @@
  * This file is generated. Do not modify it manually!
  */
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:a6f6468874d96871ad8e'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-time-element

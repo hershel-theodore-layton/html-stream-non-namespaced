@@ -3,6 +3,9 @@
  * This file is generated. Do not modify it manually!
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:be3227d1df92fe078590'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-button-element

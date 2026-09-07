@@ -3,6 +3,9 @@
  * This file is generated. Do not modify it manually!
  */
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:e8baee10b740ba7a250d'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-tr-element

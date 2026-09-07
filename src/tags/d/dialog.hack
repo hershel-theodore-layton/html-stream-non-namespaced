@@ -3,6 +3,9 @@
  * This file is generated. Do not modify it manually!
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:223a68e4aaab5182ee2f'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-dialog-element

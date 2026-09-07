@@ -3,6 +3,9 @@
  * This file is generated. Do not modify it manually!
  */
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:5133e5797a1926e7758a'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-h6-element

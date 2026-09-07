@@ -3,6 +3,9 @@
  * This file is generated. Do not modify it manually!
  */
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:a15e5371dcf646e5727a'])>>
 
 abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
   const ctx INITIALIZATION_CTX = [];

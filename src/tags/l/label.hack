@@ -3,6 +3,9 @@
  * This file is generated. Do not modify it manually!
  */
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:920d6517c0e80ce68c28'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-label-element
