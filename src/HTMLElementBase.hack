@@ -5,7 +5,7 @@
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 use type HTL\Pragma\Pragmas;
 
-<<file: Pragmas(vec['PhaLinters', 'digest:a15e5371dcf646e5727a'])>>
+<<file: Pragmas(vec['PhaLinters', 'digest:a1226f19f62858d51f4a'])>>
 
 abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
   const ctx INITIALIZATION_CTX = [];
@@ -67,6 +67,15 @@ abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
       'search',
       'send',
     } enterkeyhint,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/sections.html#attr-headingoffset
+     * A value in range 0 through 8, that offsets descendant heading levels.
+     */
+    int headingoffset,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/sections.html#attr-headingreset
+     */
+    SGMLStreamInterfaces\BooleanAttribute headingreset,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hidden
      */

@@ -5,7 +5,7 @@
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 use type HTL\Pragma\Pragmas;
 
-<<file: Pragmas(vec['PhaLinters', 'digest:d3f34c13cdfe636d9ea8'])>>
+<<file: Pragmas(vec['PhaLinters', 'digest:5a5c495df1e10bfcd07d'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-video-element
@@ -32,6 +32,10 @@ final xhp class video extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-height
      */
     int height,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/media.html#attr-media-loading
+     */
+    enum {'lazy', 'eager'} loading,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-media-loop
      */
