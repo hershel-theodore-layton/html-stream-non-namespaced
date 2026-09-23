@@ -5,7 +5,7 @@
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 use type HTL\Pragma\Pragmas;
 
-<<file: Pragmas(vec['PhaLinters', 'digest:0a72a5aec8da27d84644'])>>
+<<file: Pragmas(vec['PhaLinters', 'digest:bcd3b196375c61a3b5a7'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-input-element
@@ -182,6 +182,7 @@ final xhp class input extends HTMLElementBase {
       'week',
       'time',
       'datetime',
+      'datetime-local',
       'number',
       'range',
       'color',
