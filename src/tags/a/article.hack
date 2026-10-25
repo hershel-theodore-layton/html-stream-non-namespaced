@@ -5,14 +5,14 @@
 use namespace HTL\SGMLStream;
 use type HTL\Pragma\Pragmas;
 
-<<file: Pragmas(vec['PhaLinters', 'digest:28a7a3799d4d45dbdb64'])>>
+<<file: Pragmas(vec['PhaLinters', 'digest:cadbd86806e21602b41e'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-article-element
  */
 final xhp class article extends HTMLElementBase {
 
-  use SGMLStream\ElementWithOpenTagOnly;
+  use SGMLStream\ElementWithOpenAndCloseTags;
 
   const string TAG_NAME = 'article';
 }
